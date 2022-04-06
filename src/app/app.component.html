@@ -1,3 +1,7 @@
+<form class="mt-4"  (ngSubmit)="enviarIp()">
+  <input type="text" placeholder="IP" formControlName="ip">
+</form>
+
 <google-map width="800" height="600" [center]="position">
   <map-marker
     [position]="position"
